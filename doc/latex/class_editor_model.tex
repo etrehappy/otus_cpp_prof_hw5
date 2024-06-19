@@ -1,0 +1,93 @@
+\doxysection{Editor\+Model Class Reference}
+\hypertarget{class_editor_model}{}\label{class_editor_model}\index{EditorModel@{EditorModel}}
+
+
+{\ttfamily \#include $<$editor\+\_\+model.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_editor_model_a494a332cd7979727b3e1a5747ddb9e61}{Editor\+Model}} ()
+\item 
+\mbox{\hyperlink{class_editor_model_ad1d03a96f3be4ef0f9aa1809b6c66464}{\texorpdfstring{$\sim$}{\string~}\+Editor\+Model}} ()=default
+\item 
+void \mbox{\hyperlink{class_editor_model_a55ea06ac156cda9e5136f1f37c00828e}{Create\+New\+Document}} ()
+\item 
+void \mbox{\hyperlink{class_editor_model_af590286b2fcf93c8a179dec329a7eaca}{Import\+From\+File}} ()
+\item 
+void \mbox{\hyperlink{class_editor_model_a6a1fe699478dae7c32cf4898330a8bfa}{Export\+To\+File}} ()
+\item 
+void \mbox{\hyperlink{class_editor_model_ae903c3a69e5a25c082b21ff66f857698}{Create\+Shape}} (\mbox{\hyperlink{menu__enums_8h_aae74bdaa6cdef07e9b4092cd92e925f6}{Shape\+Types}})
+\item 
+void \mbox{\hyperlink{class_editor_model_a8c0a5e7dbdf17ee4897051738a064868}{Destroy\+Shape}} (size\+\_\+t shape\+\_\+number)
+\item 
+const std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_shapes}{Shapes}} $>$ $>$ \& \mbox{\hyperlink{class_editor_model_adbd31e46993ce7f950ef3ef81f3400d6}{Get\+Shapes}} () const
+\item 
+bool \mbox{\hyperlink{class_editor_model_ad3f742848fc78d6d3b5fcd43e7ee8c6e}{Is\+Document\+Opened}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_editor_model_a494a332cd7979727b3e1a5747ddb9e61}\index{EditorModel@{EditorModel}!EditorModel@{EditorModel}}
+\index{EditorModel@{EditorModel}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{EditorModel()}{EditorModel()}}
+{\footnotesize\ttfamily \label{class_editor_model_a494a332cd7979727b3e1a5747ddb9e61} 
+Editor\+Model\+::\+Editor\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_ad1d03a96f3be4ef0f9aa1809b6c66464}\index{EditorModel@{EditorModel}!````~EditorModel@{\texorpdfstring{$\sim$}{\string~}EditorModel}}
+\index{````~EditorModel@{\texorpdfstring{$\sim$}{\string~}EditorModel}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}EditorModel()}{\string~EditorModel()}}
+{\footnotesize\ttfamily \label{class_editor_model_ad1d03a96f3be4ef0f9aa1809b6c66464} 
+Editor\+Model\+::\texorpdfstring{$\sim$}{\string~}\+Editor\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_editor_model_a55ea06ac156cda9e5136f1f37c00828e}\index{EditorModel@{EditorModel}!CreateNewDocument@{CreateNewDocument}}
+\index{CreateNewDocument@{CreateNewDocument}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{CreateNewDocument()}{CreateNewDocument()}}
+{\footnotesize\ttfamily \label{class_editor_model_a55ea06ac156cda9e5136f1f37c00828e} 
+void Editor\+Model\+::\+Create\+New\+Document (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_ae903c3a69e5a25c082b21ff66f857698}\index{EditorModel@{EditorModel}!CreateShape@{CreateShape}}
+\index{CreateShape@{CreateShape}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{CreateShape()}{CreateShape()}}
+{\footnotesize\ttfamily \label{class_editor_model_ae903c3a69e5a25c082b21ff66f857698} 
+void Editor\+Model\+::\+Create\+Shape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{menu__enums_8h_aae74bdaa6cdef07e9b4092cd92e925f6}{Shape\+Types}}}]{shape}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_a8c0a5e7dbdf17ee4897051738a064868}\index{EditorModel@{EditorModel}!DestroyShape@{DestroyShape}}
+\index{DestroyShape@{DestroyShape}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{DestroyShape()}{DestroyShape()}}
+{\footnotesize\ttfamily \label{class_editor_model_a8c0a5e7dbdf17ee4897051738a064868} 
+void Editor\+Model\+::\+Destroy\+Shape (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{shape\+\_\+number}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_a6a1fe699478dae7c32cf4898330a8bfa}\index{EditorModel@{EditorModel}!ExportToFile@{ExportToFile}}
+\index{ExportToFile@{ExportToFile}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{ExportToFile()}{ExportToFile()}}
+{\footnotesize\ttfamily \label{class_editor_model_a6a1fe699478dae7c32cf4898330a8bfa} 
+void Editor\+Model\+::\+Export\+To\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_adbd31e46993ce7f950ef3ef81f3400d6}\index{EditorModel@{EditorModel}!GetShapes@{GetShapes}}
+\index{GetShapes@{GetShapes}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{GetShapes()}{GetShapes()}}
+{\footnotesize\ttfamily \label{class_editor_model_adbd31e46993ce7f950ef3ef81f3400d6} 
+const std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_shapes}{Shapes}} $>$ $>$ \& Editor\+Model\+::\+Get\+Shapes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_editor_model_af590286b2fcf93c8a179dec329a7eaca}\index{EditorModel@{EditorModel}!ImportFromFile@{ImportFromFile}}
+\index{ImportFromFile@{ImportFromFile}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{ImportFromFile()}{ImportFromFile()}}
+{\footnotesize\ttfamily \label{class_editor_model_af590286b2fcf93c8a179dec329a7eaca} 
+void Editor\+Model\+::\+Import\+From\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_editor_model_ad3f742848fc78d6d3b5fcd43e7ee8c6e}\index{EditorModel@{EditorModel}!IsDocumentOpened@{IsDocumentOpened}}
+\index{IsDocumentOpened@{IsDocumentOpened}!EditorModel@{EditorModel}}
+\doxysubsubsection{\texorpdfstring{IsDocumentOpened()}{IsDocumentOpened()}}
+{\footnotesize\ttfamily \label{class_editor_model_ad3f742848fc78d6d3b5fcd43e7ee8c6e} 
+bool Editor\+Model\+::\+Is\+Document\+Opened (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/etreh/\+Documents/\+Programming/\+Otus/\+C++\+\_\+\+Developer/\+Professional/lesson\+\_\+12/otus\+\_\+cpp\+\_\+prof\+\_\+hw5/source/\mbox{\hyperlink{editor__model_8h}{editor\+\_\+model.\+h}}\item 
+C\+:/\+Users/etreh/\+Documents/\+Programming/\+Otus/\+C++\+\_\+\+Developer/\+Professional/lesson\+\_\+12/otus\+\_\+cpp\+\_\+prof\+\_\+hw5/source/\mbox{\hyperlink{editor__model_8cpp}{editor\+\_\+model.\+cpp}}\end{DoxyCompactItemize}
